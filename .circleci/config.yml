@@ -35,3 +35,6 @@ jobs:
 
       # run tests!
       - run: yarn test
+      - run:
+          name: Run Cloudfoundry Script
+          command: bash .circleci/cloudfoundry.sh
