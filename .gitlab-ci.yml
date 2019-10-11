@@ -20,3 +20,7 @@ testing_testing:
   stage: test
   script: npm test
 
+
+include:
+  template: Dependency-Scanning.gitlab-ci.yml
+
